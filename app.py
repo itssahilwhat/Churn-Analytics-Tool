@@ -121,7 +121,7 @@ st.markdown(
 
 # Your main Streamlit code...
 st.title("📈 Telco Customer Analysis Dashboard")
-st.write("Compare supervised learning models for customer churn prediction and revenue prediction.")
+st.write("Compare supervised learning models for customer churn prediction (classification) and revenue prediction (regression).")
 
 # ============================
 # 🚀 Load Data
@@ -148,8 +148,7 @@ X_train_reg, X_test_reg, y_train_reg, y_test_reg = train_test_split(X, y_reg, te
 st.sidebar.header("🛠 Select Task")
 task = st.sidebar.radio("Choose a task", ("Classification", "Regression"))
 
-st.title("📈 Telco Customer Analysis Dashboard")
-st.write("Compare supervised learning models for customer churn prediction (classification) and revenue prediction (regression).")
+
 
 # ============================
 # 🏆 Classification Section
