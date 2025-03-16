@@ -277,7 +277,7 @@ elif task == "Regression":
 st.markdown(
     """
     <div class="footer">
-        © 2025 Your Company Name - All Rights Reserved
+        Made by Sahil Bhatia
     </div>
     """,
     unsafe_allow_html=True
